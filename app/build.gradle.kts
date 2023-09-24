@@ -70,6 +70,17 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //dagger hilt
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-compiler:2.48")
+
+    //LiveData
+
+    // LiveData
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
+    implementation("androidx.compose.runtime:runtime-livedata:1.2.1")
+
+
+
 }
